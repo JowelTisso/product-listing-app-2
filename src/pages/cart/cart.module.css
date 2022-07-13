@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+}
+
+.listSection {
+  flex: 2;
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.detailSection {
+  flex: 1;
+  height: 70vh;
+}
+
+.detailCard {
+  width: 90%;
+  padding: 3rem 2rem;
+  box-shadow: 0px 0px 1px 0px var(--secondary-color);
+}
+
+.title {
+  font-size: 1.9rem;
+}
+
+.savedWrapper {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.savedTitle {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  width: 70%;
+}
+
+.card {
+  width: 29%;
+}
