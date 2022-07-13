@@ -62,7 +62,7 @@ const Card = ({ id, title, price, brand, size, image, rating, item }) => {
       } `}
     >
       <div className="txt-overlay-container">
-        <img className="card-img" src={image} alt="card image" />
+        <img className="card-img" src={image} alt="product" />
         <div className={`txt-overlay ${styles.title}`}>
           <p className="card-title">{title}</p>
           <p className="card-sub-title">₹{price}</p>
