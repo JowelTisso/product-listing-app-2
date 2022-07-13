@@ -78,7 +78,7 @@ const Cart = () => {
         <ProducList />
         <DetailSection />
       </main>
-      <SavedSection />
+      {savedItems.length > 0 && <SavedSection />}
     </>
   );
 };
